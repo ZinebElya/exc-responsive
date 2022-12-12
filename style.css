@@ -1,0 +1,58 @@
+* {box-sizing: border-box;}
+
+
+  
+@media only screen and (max-width: 300px) {
+  body { background-color: red;
+    font-size: 16px;
+  }
+  .small {
+    display:block; 
+  }
+  section {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px)  {
+  body { background-color: green;
+    font-size: 30px;
+  } 
+  .small {
+    float: left;
+    width: 66%;
+  }
+  .medium {
+    display: block; 
+    float: left;
+    width: 34%;
+    
+  }
+  
+  
+
+
+}
+
+@media only screen and (min-width: 768px) {
+  body { background-color: blue;
+    font-size: 40px;
+  } 
+  .large {
+    display: block;
+    width: 33%;
+    float: left;
+   
+  }
+  .small {
+    float: left;
+    width: 33%;
+  }
+  .medium {
+    display: block; 
+    float: left;
+    width: 34%;
+    
+  }
+}
